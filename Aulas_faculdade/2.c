@@ -14,9 +14,13 @@ int main()
     
     printf("O quadrado deste valor é: %.1lf \n O cubo deste valor é: %.1lf", pow(v, 2), pow(v, 3));
 
+    return 0;
+}
+
 
 //segundo
 
+int main() {
 double c, m, i, t; 
     
     printf("Insira o valor do capital: \n");
@@ -31,6 +35,9 @@ double c, m, i, t;
     
     printf("O montante do capital é: %.2lf", m);
 
+    return 0;
+}
+
 
 //terceiro
 
@@ -43,7 +50,9 @@ double c, m, i, t;
     return 0;
 }
 
+
 //quarto
+
 int main()
  {
      double lado1, lado2, area, perimetro;
@@ -55,9 +64,13 @@ int main()
      perimetro = lado1*2+lado2*2;
      printf("a area do terreno e: %.2lf \n", area);
      printf("o perimetro do terreno e: %.2lf", perimetro);
+
+     return 0;
  }
 
+
 //quinto
+
 int main()
 {
     int A, B, C, delta = 0;
@@ -79,9 +92,13 @@ int main()
         x2 = ((-B) - sqrt(delta)) / (2 * A);
         printf("o valor de x1 e %.2lf e de x2 e %.2lf", x1, x2);
     }
+
+    return 0;
 }
 
+
 //sexto
+
 int main() {
     int hora, minutos, resultado;
     printf("que horas sao (so as horas 0-23): ");
@@ -98,9 +115,13 @@ int main() {
         minutos = 60 - minutos;
     }
     printf("faltam %d horas e %d minutos para o final do dia", hora, minutos);
+
+    return 0;
 }
 
+
 //sétimo
+
 int main() {
     int x1, x2, y1, y2;
     double distancia;
