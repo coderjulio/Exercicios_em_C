@@ -13,7 +13,7 @@ int main()
     scanf("%lf", &v); 
     
     printf("O quadrado deste valor é: %.1lf \n O cubo deste valor é: %.1lf", pow(v, 2), pow(v, 3));
-}
+
 
 //segundo
 
