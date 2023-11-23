@@ -56,9 +56,9 @@ int main()
     
     printf("Insira a primeira nota: \n");
     scanf("%f", &n1);
-    printf("Insira a primeira nota: \n");
+    printf("Insira a segunda nota: \n");
     scanf("%f", &n2);
-    printf("Insira a primeira nota: \n");
+    printf("Insira a terceira nota: \n");
     scanf("%f", &n3);
     /*As seis linhas acima pedem ao usuário que insira três valores que são as notas e os inputs são lidos pelo
      scanf que armazena nas respectivas variáveis das notas n1,n2 e n3*/
